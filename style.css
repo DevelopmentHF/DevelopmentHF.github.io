@@ -14,14 +14,17 @@ body {
 
 .uni {
     background-color: rgb(107, 149, 255);
+    border-radius: 5px;
 }
 
 .henry {
     background-color: rgb(255, 108, 108);
+    border-radius: 10px;
 }
 
 .my {
     background-color: rgb(255, 252, 83);
+    border-radius: 5px;
 }
 
 a {
@@ -31,4 +34,5 @@ a {
 
 a:hover {
     background-color: rgb(212, 212, 212);
+    border-radius: 5px;
 }
