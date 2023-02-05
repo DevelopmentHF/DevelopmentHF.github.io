@@ -6,6 +6,6 @@ landingpage.addEventListener('click', () => {
 
 const pxljs = document.querySelector("#pxljs");
 
-landingpage.addEventListener('click', () => {
+pxljs.addEventListener('click', () => {
     window.location = "https://developmenthf.github.io/pxl-js";
 })
