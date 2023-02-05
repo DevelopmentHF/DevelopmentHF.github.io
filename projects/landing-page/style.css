@@ -1,0 +1,241 @@
+/* General Page specs */
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Main container which contains the different scenes */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Top level header scene */
+header {
+    flex: 1;
+    display: flex;
+    background-color: #1F2937;
+    padding-bottom:  75px;
+    justify-content: space-between;
+}  
+
+.logo {
+    flex: 1;
+    align-items: flex-start;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#logotext {
+    margin-left: 250px;
+}
+
+.links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    font-size: 18px;
+    color: #E5E7EB;
+    align-items: center;
+    margin-right: 250px;
+}
+
+/* Hero scene */
+.hero {
+    flex: 1;
+    display: flex;
+    background-color: #1F2937;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.herodetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.herotext {
+    margin: 10px;
+    margin-left: 250px;
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.herotext#secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+
+.signup {
+    background-color: #3882F6;
+    border: none;
+    color:#F9FAF8;
+    border-radius: 3px;
+    font-size: 18px;
+    align-self: flex-start;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 250px;
+    padding:10px
+}
+
+.heroimage {
+    display: flex;
+    flex: 1;
+    margin-right: 250px;
+    justify-content: flex-end;
+}
+
+/* Information scene */
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.infotitle {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infotitletext {
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: bolder;
+}
+
+.infobottom {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 200px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.infoelem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #999999;
+    text-align: center;
+}
+
+/* Quote section */
+
+.quote {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.quotebody {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 50px;
+}
+
+.quoteauthor {
+    font-size: 30px;
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 250px;
+}
+
+/* Call to action section */
+.CTA {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctacontainer {
+    flex: 1;
+    display: flex;
+    margin: 100px;
+    margin-top: 0px;
+    background-color:#3882F6;
+    border-radius: 10px;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ctatext {
+    flex: 1;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.ctatop {
+    flex: 1;
+    font-size: 30px;
+    color:#F9FAF8;
+    font-weight: bold;
+}
+
+.ctabot {
+    flex: 1;
+    font-size: 18px;
+    color:#E5E7EB;
+    font-weight: lighter;
+}
+
+.ctabtncontainer {
+    flex: 1;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctabutton {
+    background-color:#3882F6;
+    padding: 25px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    font-size: 36px;
+    font-weight: bold;
+    color:#F9FAF8
+}
+
+/* Footer section */
+
+footer {
+    flex: 1;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    font-size: 18px;
+    padding: 25px;
+    text-align: center;
+}

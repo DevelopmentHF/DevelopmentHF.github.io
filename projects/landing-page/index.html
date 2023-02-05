@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <div class="content">
+        <!-- TOP SCENE -->
+        <header>
+            <div class="logo">
+                <p id="logotext">Header Logo</p>
+            </div>
+            <div class="links">
+                <a>header link one</a>
+                <a>header link two</a>
+                <a>header link three</a>
+            </div>
+        </header>
+
+        <!-- HERO SCENE -->
+        <div class="hero">
+            <div class="herodetails">
+                <p class="herotext">This website is awesome</p>
+                <p class="herotext" id="secondary">This website has some subtext that goes under the main title. It's a smaller font and the colour is lower contrast</p>
+                <button class="signup">Sign Up</button>
+            </div>
+            <div class="heroimage">
+                <img src="resources/nosignal.jpg" alt="no signal tv" width="450" height="250">
+            </div>
+        </div>
+
+        <!-- INFORMATION SCENE -->
+        <div class="info">
+            <div class="infotitle">
+                <p class="infotitletext">Some Random Information</p>
+            </div>
+            <div class="infobottom">
+                <div class="infoelem">
+                    <div class="infoimg">
+                        <img src="resources/fuzzy1.jpg" width="200" height="200">
+                    </div>
+                    <div class="infotext">
+                        <p class="subtext">This is some subtext, or an illustration under an image</p>
+                    </div>
+                </div>
+                <div class="infoelem">
+                    <div class="infoimg">
+                        <img src="resources/fuzzy2.webp" width="200" height="200">
+                    </div>
+                    <div class="infotext">
+                        <p class="subtext">This is some subtext, or an illustration under an image</p>
+                    </div>
+                </div>
+                <div class="infoelem">
+                    <div class="infoimg">
+                        <img src="resources/fuzzy3.jpg" width="200" height="200">
+                    </div>
+                    <div class="infotext">
+                        <p class="subtext">This is some subtext, or an illustration under an image</p>
+                    </div>
+                </div>
+                <div class="infoelem">
+                    <div class="infoimg">
+                        <img src="resources/fuzzy4.png" width="200" height="200">
+                    </div>
+                    <div class="infotext">
+                        <p class="subtext">This is some subtext, or an illustration under an image</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quote section -->
+        <div class="quote">
+            <p class="quotebody">This is an inspiring quote, or a testamonial from a user. Maybe it's just filling up space, or maybe people will actually read it. Who knows ... it looks nice.</p>
+            <p class="quoteauthor">-Jenry Helding, 2023</p>
+        </div>
+
+        <!-- Call to action section -->
+        <div class="CTA">
+            <div class="ctacontainer">
+                <div class="ctatext">
+                    <p class="ctatop">Call to action! It's time!</p>
+                    <p class="ctabot">Sign up for my nonexistent product by clicking that button!</p>
+                </div>
+                <div class="ctabtncontainer">
+                    <button class="ctabutton">Sign Up</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer section -->
+        <footer>
+            Design copyright The Odin Project, made by Henry Fielding
+        </footer>
+    </div>
+    
+    <script>
+        let add7 = num1 => num1 + 7;
+        function multiply(num1, num2) {
+            return num1 * num2;
+        }
+        function capitalise(str) {
+            str = str.toLowerCase();
+            str = str[0].toUpperCase() + str.slice(1);
+            return str;
+        }
+        function lastletter(str) {
+            return str[str.length - 1];
+        }
+        console.log(lastletter("hello"));
+    </script>
+
+</body>
+</html>
